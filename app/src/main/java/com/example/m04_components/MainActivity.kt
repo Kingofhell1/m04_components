@@ -17,19 +17,19 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val bind = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(bind.root)
+        val binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         val points = Random.nextInt(101)
-        bind.progrBar.progress = points
-        bind.txtProgrBarPercent.text = "$points/100"
+        binding.progrBar.progress = points
+        binding.txtProgrBarPercent.text = "$points/100"
 
-        val txtInputName = bind.txtInputName
-        val txtInputPhone = bind.txtInputPhone
-        val switcher = bind.switchNotifications
-        val chbxAutorization = bind.chbxNotifyAuthorization
-        val chbxNews = bind.chbxNotifyNews
-        val btnSave = bind.btnSave
+        val txtInputName = binding.txtInputName
+        val txtInputPhone = binding.txtInputPhone
+        val switcher = binding.switchNotifications
+        val chbxAutorization = binding.chbxNotifyAuthorization
+        val chbxNews = binding.chbxNotifyNews
+        val btnSave = binding.btnSave
 
         txtInputName.doOnTextChanged { text, _, _, _ ->
             if (text != null) {
