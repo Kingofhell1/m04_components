@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">m04_components</string>
+    <string name="helper_input_name" translatable="false">Имя</string>
+    <string name="photo" translatable="false">Photo</string>
+    <string name="helper_input_phone" translatable="false">Телефон</string>
+    <string name="gender" translatable="false">Пол</string>
+    <string name="gender_m" translatable="false">М</string>
+    <string name="gender_w" translatable="false">Ж</string>
+    <string name="receive_notifications" translatable="false">Получать уведомления</string>
+    <string name="authorization_on_the_device" translatable="false">Об авторизации на устройстве</string>
+    <string name="new_products_and_offers" translatable="false">О новинках и предложениях</string>
+    <string name="score" translatable="false">Баллы</string>
+    <string name="count_score" translatable="false">/100</string>
+    <string name="save" translatable="false">Сохранить</string>
+    <string name="toast_save_text" translatable="false">"Изменения сохранены"</string>
+</resources>
